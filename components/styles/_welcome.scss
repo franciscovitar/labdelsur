@@ -1,0 +1,109 @@
+.home-welcome {
+    background-image: url("../../Images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 30px;
+    padding: 120px 20px;
+    border-radius: 10px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    @media(max-width: 1000px) {
+        padding: 80px 5px;
+
+    }
+
+    @media(max-width: 700px) {
+        border-radius: 0px;
+        background-position: center;
+    }
+
+    @supports (-webkit-touch-callout: none) {
+        background-attachment: scroll;
+    }
+
+    @supports not (-webkit-touch-callout: none) {
+        background-attachment: fixed;
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        border-radius: 10px;
+        background: linear-gradient(to left, #3b83f61b, #0229aa60);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
+        @media(max-width: 700px) {
+            border-radius: 0px;
+
+        }
+    }
+
+    .contenedor {
+        position: relative;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        padding: 0 50px;
+
+        @media(max-width: 500px) {
+            padding: 0 10px;
+
+        }
+
+
+        h2 {
+            font-weight: 800;
+            font-size: 48px;
+            text-align: center;
+
+            @media(max-width: 1000px) {
+                font-size: 38px;
+
+            }
+
+
+            @media(max-width: 500px) {
+                font-size: 30px;
+
+            }
+
+        }
+
+        p {
+            text-align: center;
+            margin-top: 20px;
+            font-weight: 400;
+            font-size: 20px;
+            color: rgb(219, 234, 254);
+            padding: 0 10px;
+
+            @media(max-width: 1000px) {
+                font-size: 15px;
+
+            }
+        }
+
+        input {
+            margin-top: 20px;
+            border-radius: 5px;
+            outline: none;
+            padding: 10px 15px;
+            background-color: #ffffff;
+            color: #000000;
+            border: none;
+
+        }
+
+    }
+
+
+}

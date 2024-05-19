@@ -1,0 +1,97 @@
+.obras-sociales {
+
+    // margin-top: 200px;
+
+    @media(max-width: 700px) {
+
+        padding: 0px 20px;
+
+    }
+
+    .titulo {
+        display: flex;
+        justify-content: space-between;
+
+        @media(max-width: 500px) {
+
+            gap: 20px;
+        }
+
+        h3 {
+            font-size: 36px;
+            font-weight: 800;
+            color: rgb(17, 24, 39);
+
+            @media(max-width: 900px) {
+
+                font-size: 26px
+            }
+
+            @media(max-width: 400px) {
+                font-size: 20px;
+            }
+        }
+
+        a {
+            background: #3A80F4;
+            text-decoration: none;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            font-weight: 600;
+            font-size: 16px;
+            padding: 13px 30px;
+            border-radius: 6px;
+
+            @media(max-width: 660px) {
+                padding: 13px 20px;
+                font-size: 13px;
+            }
+
+            &:hover {
+                background: #2563EB;
+                color: rgb(255, 255, 255);
+            }
+        }
+
+    }
+
+    .obras-flex {
+        margin-top: 50px;
+
+        .obra-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+
+            @media(max-width: 600px) {
+
+                justify-content: center;
+            }
+
+            div {
+                height: 100px;
+                width: 17%;
+
+                @media(max-width: 600px) {
+
+                    width: 20%;
+                }
+
+                @media(max-width: 500px) {
+
+                    width: 45%;
+                }
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+
+
+            }
+        }
+    }
+}

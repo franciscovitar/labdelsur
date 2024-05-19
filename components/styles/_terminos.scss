@@ -1,0 +1,23 @@
+.terminos {
+
+    @media(max-width:700px) {
+        padding: 0 20px;
+    }
+
+    h4 {
+        font-weight: 400;
+        font-size: 14px;
+        color: rgb(31, 41, 55);
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        color: rgb(156, 163, 175);
+
+
+        @media(max-width:700px) {
+            margin-top: 30px;
+        }
+    }
+}
