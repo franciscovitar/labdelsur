@@ -137,7 +137,7 @@ $transparent: #ffffff00;
         }
 
         .bg-div {
-            display: none;
+            display: flex;
             background-color: #E8ECF5;
             position: fixed;
             opacity: 0;
@@ -146,7 +146,7 @@ $transparent: #ffffff00;
             height: 100vh;
             top: 0;
             right: 0;
-            z-index: -1;
+            z-index: 1;
             transform: translateX(100%);
             transition: all 0.6s ease;
 
@@ -186,14 +186,20 @@ $transparent: #ffffff00;
             }
 
             a {
-                color: #000000;
+                color: rgba(17, 24, 39, 0.607);
+                ;
                 text-decoration: none;
                 font-size: 20px;
                 text-align: end;
-                font-weight: 400;
+                font-weight: 600;
 
                 @media (max-width: 600px) {
                     font-size: 17px;
+                }
+
+
+                &:hover {
+                    color: rgb(17, 24, 39);
                 }
 
             }
