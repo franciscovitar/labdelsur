@@ -30,9 +30,7 @@ function Nosotros() {
     <div id="nosotros" className="nosotros-container">
       <motion.div {...textVariants} className="titulo">
         <span>NOSOTROS</span>
-        <h3>
-          Calidad, responsabilidad y profesionalismo desde hace más de 25 años
-        </h3>
+        <h3>Calidad, responsabilidad y profesionalismo desde 1996.</h3>
       </motion.div>
 
       <div className="texto">

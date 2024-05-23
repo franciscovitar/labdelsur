@@ -30,6 +30,16 @@
                 }
             }
 
+            a {
+                color: rgb(107, 114, 128);
+                font-weight: 700;
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
             p {
                 white-space: pre-wrap;
                 width: 55%;

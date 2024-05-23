@@ -14,7 +14,7 @@ const textVariants = {
 };
 function WelcomePreguntas({ setSearchTerm, searchTerm }) {
   return (
-    <div id="inicio" className="home-welcome">
+    <div id="inicio" className="home-welcome preguntas-welcome">
       <div className="contenedor">
         <motion.h2 {...textVariants}>PREGUNTAS FRECUENTES</motion.h2>
         <motion.input

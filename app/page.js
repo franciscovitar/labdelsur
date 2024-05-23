@@ -3,6 +3,7 @@ import Contacto from "@/components/home/Contacto";
 import Footer from "@/components/home/Footer";
 import Header from "@/components/home/Header";
 import Imagenes from "@/components/home/Imagenes";
+import Indicacion from "@/components/home/Indicacion";
 import Maps from "@/components/home/Maps";
 import NavBar from "@/components/home/Navbar";
 import Nosotros from "@/components/home/Nosotros";
@@ -25,6 +26,7 @@ export default function Home() {
       <Preguntas />
       <ObrasSociales inicio="hola" />
       <Nosotros />
+      <Indicacion />
       <Imagenes />
       <Resultados />
       <Contacto />

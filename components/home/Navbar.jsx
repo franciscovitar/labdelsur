@@ -82,6 +82,9 @@ const NavBar = () => {
             <a title="Preguntas" href="/#preguntas">
               Preguntas Frecuentes
             </a>
+            <a title="Indicaciones" href="/#indicaciones">
+              Indicaciones
+            </a>
             <a title="Obras sociales" href="/#coberturas">
               Coberturas
             </a>
@@ -103,6 +106,9 @@ const NavBar = () => {
 
             <a onClick={handleClick} title="Preguntas" href="/#preguntas">
               Preguntas Frecuentes
+            </a>
+            <a onClick={handleClick} title="Indicaciones" href="/#indicaciones">
+              Indicaciones
             </a>
             <a onClick={handleClick} title="Obras sociales" href="/#coberturas">
               Coberturas

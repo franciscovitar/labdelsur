@@ -12,15 +12,11 @@ const textVariants = {
     transition: { duration: 1, ease: "easeInOut" },
   },
 };
-
-function WelcomeCoberturas({ setSearchTerm, searchTerm }) {
+function WelcomeIndicaciones({ setSearchTerm, searchTerm }) {
   return (
-    <div id="inicio" className="home-welcome coberturas-welcome">
+    <div id="inicio" className="home-welcome indicaciones-welcome">
       <div className="contenedor">
-        <motion.h2 {...textVariants}>OBRAS SOCIALES</motion.h2>
-        <motion.p {...textVariants}>
-          Atendemos más de 50 obras sociales
-        </motion.p>
+        <motion.h2 {...textVariants}>INDICACIONES DE ESTUDIOS</motion.h2>
         <motion.input
           {...textVariants}
           type="text"
@@ -33,4 +29,4 @@ function WelcomeCoberturas({ setSearchTerm, searchTerm }) {
   );
 }
 
-export default WelcomeCoberturas;
+export default WelcomeIndicaciones;

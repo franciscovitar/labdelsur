@@ -47,13 +47,13 @@ function Maps() {
             target="blank"
             href="https://api.whatsapp.com/send/?phone=5491127714569&text=Hola&type=phone_number&app_absent=0"
           >
-            <p>11 2771 45 69</p>
+            <p>11-2771-4569</p>
           </a>
         </motion.div>
         <motion.div {...textVariants} className="iconos">
           <i className="bi bi-envelope"></i>
-          <a target="blank" href="mailto:info@laboratoriodelsur.com.ar">
-            <p>info@laboratoriodelsur.com.ar</p>
+          <a target="blank" href="mailto:info@labdelsur.com.ar">
+            <p>info@labdelsur.com.ar</p>
           </a>
         </motion.div>
         <motion.div {...textVariants} className="iconos">
@@ -67,9 +67,10 @@ function Maps() {
         <motion.div {...textVariants} className="iconos">
           <i className="bi bi-geo-alt"></i>
           <p>
-            Margarita Weild 1200 (esq. Anatole France)
+            Margarita Weild 1200 (esq. Anatole France. A 150 mts. de la estación
+            Lanús.)
             <br />
-            Lanús Este, Prov. de Buenos Aires
+            Lanús Este, Prov. de Buenos Aires.
           </p>
         </motion.div>
       </div>
