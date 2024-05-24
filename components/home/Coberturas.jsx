@@ -85,7 +85,7 @@ function Coberturas({ searchTerm }) {
       significado: "INSTITUTO DE OBRA SOCIAL DEL EJÉRCITO - FUERZAS ARMADAS",
     },
     { titulo: "ISALUD", significado: "ISALUD" },
-    { titulo: "JERARQUICOS", significado: "JERARQUICOS SALUD" },
+    { titulo: "JERÁRQUICOS", significado: "JERÁRQUICOS SALUD" },
     {
       titulo: "LUIS PASTEUR",
       significado:

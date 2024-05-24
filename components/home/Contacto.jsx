@@ -31,11 +31,11 @@ function Contacto() {
           >
             Resultados Online
           </a>
-          <a target="blank" href="/indicaciones">
-            Indicaciones de Estudios
-          </a>
           <a target="blank" href="/preguntas-frecuentes">
             Preguntas Frecuentes
+          </a>
+          <a target="blank" href="/indicaciones">
+            Indicaciones de Estudios
           </a>
           <a target="blank" href="/obras-sociales">
             Coberturas

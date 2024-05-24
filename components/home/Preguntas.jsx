@@ -46,7 +46,7 @@ function Preguntas() {
           <p>
             Lo puede solicitar por WhatsApp al{" "}
             <a href="https://api.whatsapp.com/send?phone=541127714569&text=Hola">
-              11-2771-4569.
+              11-2771-4569
             </a>
             .
           </p>
@@ -69,7 +69,7 @@ function Preguntas() {
             >
               Haz clic aquí para ver el mapa
             </a>
-            .,
+            .
           </p>
         </motion.div>
         <motion.div {...imageVariants}>

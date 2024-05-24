@@ -72,20 +72,23 @@ const NavBar = () => {
           }}
         >
           <div className="links">
-            <a title="Nosotros" href="/#nosotros">
+            <a href="/#nosotros" title="Nosotros">
               Nosotros
             </a>
-            <a title="Resultados" href="/#resultados">
+            <a
+              target="blank"
+              title="Resultados"
+              href="https://delsur.kernitcloud.com/#/login/paciente"
+            >
               Resultados Online
             </a>
-
-            <a title="Preguntas" href="/#preguntas">
+            <a target="blank" title="Preguntas" href="/preguntas-frecuentes">
               Preguntas Frecuentes
             </a>
-            <a title="Indicaciones" href="/#indicaciones">
-              Indicaciones
+            <a target="blank" title="Indicaciones" href="/indicaciones">
+              Indicaciones de Estudios
             </a>
-            <a title="Obras sociales" href="/#coberturas">
+            <a target="blank" title="Obras sociales" href="/obras-sociales">
               Coberturas
             </a>
           </div>
@@ -97,20 +100,39 @@ const NavBar = () => {
         </motion.div>
         <div ref={bgDiv} className="bg-div">
           <div ref={linksActive} className="links-active">
-            <a onClick={handleClick} title="Nosotros" href="/#nosotros">
+            <a onClick={handleClick} href="/#nosotros" title="Nosotros">
               Nosotros
             </a>
-            <a onClick={handleClick} title="Resultados" href="/#resultados">
+            <a
+              target="blank"
+              onClick={handleClick}
+              title="Resultados"
+              href="https://delsur.kernitcloud.com/#/login/paciente"
+            >
               Resultados Online
             </a>
-
-            <a onClick={handleClick} title="Preguntas" href="/#preguntas">
+            <a
+              target="blank"
+              onClick={handleClick}
+              title="Preguntas"
+              href="/preguntas-frecuentes"
+            >
               Preguntas Frecuentes
             </a>
-            <a onClick={handleClick} title="Indicaciones" href="/#indicaciones">
-              Indicaciones
+            <a
+              target="blank"
+              onClick={handleClick}
+              title="Indicaciones"
+              href="/indicaciones"
+            >
+              Indicaciones de Estudios
             </a>
-            <a onClick={handleClick} title="Obras sociales" href="/#coberturas">
+            <a
+              target="blank"
+              onClick={handleClick}
+              title="Obras sociales"
+              href="/obras-sociales"
+            >
               Coberturas
             </a>
           </div>
