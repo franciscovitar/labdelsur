@@ -29,17 +29,24 @@ function Preguntas() {
         <motion.div {...imageVariants}>
           <h5>¿Cómo obtener mis resultados?</h5>
           <p>
-            Puede retirar sus resultados de lunes a viernes de 14:00 a 18:00
-            hs., sábados de 10:00 a 13:00 hs. o bien descargarlos a través del
-            portal en cualquier momento.
+            Puede hacerlo de cualquiera de las siguientes formas:
+            <br />
+            Presencial: Retire sus resultados de lunes a viernes de 14:00 a
+            18:00 hs. y sábados de 10:00 a 13:00 hs. en el Laboratorio.
+            <br />
+            Web: Descárguelos desde la solapa Resultados Online en cualquier
+            momento siguiendo las instrucciones dadas en el papel de retiro.
+            <br />
+            WhatsApp: Solicítelos al 11-2771-4569 informando el número de orden
+            y su DNI.
           </p>
         </motion.div>
         <motion.div {...imageVariants}>
           <h5>¿Cómo solicito un servicio a domicilio?</h5>
           <p>
-            Lo puede solicitar a nuestro asistente virtual haciendo click{" "}
+            Lo puede solicitar por WhatsApp al{" "}
             <a href="https://api.whatsapp.com/send?phone=541127714569&text=Hola">
-              aquí
+              11-2771-4569.
             </a>
             .
           </p>
@@ -47,21 +54,34 @@ function Preguntas() {
       </div>
       <div className="texto-preguntas">
         <motion.div {...imageVariants}>
-          <h5>¿Cuáles son los horarios de atención y la ubicación?</h5>
+          <h5>
+            ¿Cuáles son los días y horarios de atención? ¿Dónde nos encontramos?
+          </h5>
           <p>
             Atendemos de lunes a viernes de 7:30 a 18:00 hs y sábados de 7:30 a
             13:00 hs.
-            <br /> Las extracciones son hasta las 10:30 hs.
-            <br /> Estamos en Margarita Weild 1200, Lanús Este, Prov. de Buenos
-            Aires
+            <br />
+            Lab del Sur está ubicado en la calle Margarita Weild 1200, Lanús
+            Este, Prov. de Buenos Aires (esquina Anatole France).{" "}
+            <a
+              href="https://www.google.com/maps/place/Laboratorio+DEL+SUR+An%C3%A1lisis+Cl%C3%ADnicos/@-34.709188,-58.390198,16z/data=!4m6!3m5!1s0x95bccd2349da42d1:0x5137a310ec6e1bbc!8m2!3d-34.7091885!4d-58.3901978!16s%2Fg%2F11bz__h1w4?hl=es-419&entry=ttu"
+              target="_blank"
+            >
+              Haz clic aquí para ver el mapa
+            </a>
+            .,
           </p>
         </motion.div>
         <motion.div {...imageVariants}>
-          <h5>Horarios de hisopado COVID19</h5>
+          <h5>¿Necesito sacar un turno para atenderme?</h5>
           <p>
-            <strong>Sin turno.</strong> Hisopados PCR de lunes a viernes de
-            11:00 a 15:00 hs. Test de antígenos de lunes a viernes de 11:00 a
-            15:00 hs. y sábados de 9:00 a 12:00 hs.
+            La atención en nuestro laboratorio es sin turno previo.
+            <br />
+            Puede consultar si su cobertura requiere autorización previa para su
+            atención remitiendo su orden y credencial por WhatsApp al{" "}
+            <a href="https://api.whatsapp.com/send?phone=541127714569&text=Hola">
+              11-2771-4569.
+            </a>
           </p>
         </motion.div>
       </div>
