@@ -7,6 +7,7 @@ function PreguntasFrecuentes({ searchTerm }) {
         "¿Cuáles son los días y horarios de atención? ¿Dónde nos encontramos?",
       respuesta: (
         <p
+          className="parrafo"
           dangerouslySetInnerHTML={{
             __html: `Atendemos de lunes a viernes de 7:30 a 18:00 hs y sábados de 7:30 a 13:00 hs.<br/><br/>Lab del Sur está ubicado en la calle Margarita Weild 1200, Lanús Este, Prov. de Buenos Aires (esquina Anatole France). <a href='https://www.google.com/maps/place/Laboratorio+DEL+SUR+An%C3%A1lisis+Cl%C3%ADnicos/@-34.709188,-58.390198,16z/data=!4m6!3m5!1s0x95bccd2349da42d1:0x5137a310ec6e1bbc!8m2!3d-34.7091885!4d-58.3901978!16s%2Fg%2F11bz__h1w4?hl=es-419&entry=ttu' target='_blank'>Haz clic aquí para ver el mapa</a>.`,
           }}
@@ -100,20 +101,40 @@ function PreguntasFrecuentes({ searchTerm }) {
   ];
 
   const normalizeString = (str) => {
+    if (typeof str !== "string") {
+      return "";
+    }
     return str
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .toLowerCase();
   };
 
-  const filteredPreguntasRespuestas = preguntasRespuestas.filter(
-    (item) =>
-      normalizeString(item.pregunta).includes(normalizeString(searchTerm)) ||
-      normalizeString(item.respuesta).includes(normalizeString(searchTerm))
-  );
+  const getTextFromHtml = (html) => {
+    if (typeof window !== "undefined") {
+      const div = document.createElement("div");
+      div.innerHTML = html;
+      return div.textContent || div.innerText || "";
+    }
+    return ""; // Devuelve una cadena vacía si no estás en el entorno del cliente
+  };
+
+  const filteredPreguntasRespuestas = preguntasRespuestas.filter((item) => {
+    const pregunta = normalizeString(item.pregunta);
+    const respuesta =
+      typeof item.respuesta === "string"
+        ? normalizeString(item.respuesta)
+        : normalizeString(
+            getTextFromHtml(item.respuesta.props.dangerouslySetInnerHTML.__html)
+          );
+    return (
+      pregunta.includes(normalizeString(searchTerm)) ||
+      respuesta.includes(normalizeString(searchTerm))
+    );
+  });
 
   return (
-    <div className="preguntas-frecuentes">
+    <div id="preg" className="preguntas-frecuentes">
       {filteredPreguntasRespuestas.map((item, index) => (
         <div key={index}>
           <div className="preguntas-flex">

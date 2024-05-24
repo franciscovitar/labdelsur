@@ -3,16 +3,16 @@ import "../styles/_preguntasFrecuentes.scss";
 function Coberturas({ searchTerm }) {
   const coberturas = [
     { titulo: "GALENO", significado: "GALENO ARGENTINA" },
-    { titulo: "IOMA", significado: "INSTITUTO OBRA MEDICO ASISTENCIAL" },
+    { titulo: "IOMA", significado: "INSTITUTO OBRA MÉDICO ASISTENCIAL" },
     { titulo: "OMINT", significado: "OMINT" },
     {
       titulo: "OSDE",
-      significado: "ORGANIZACION DE SERVICIOS DIRECTOS EMPRESARIOS",
+      significado: "ORGANIZACIÓN DE SERVICIOS DIRECTOS EMPRESARIOS",
     },
     { titulo: "OSDEPYM", significado: "OBRA SOCIAL DE EMPRESARIOS" },
     {
       titulo: "OSMECON",
-      significado: "OSMECON LOMAS DE ZAMORA Y ESTEBAN ECHEVERRIA",
+      significado: "OSMECON LOMAS DE ZAMORA Y ESTEBAN ECHEVERRÍA",
     },
     {
       titulo: "PAMI",
@@ -21,32 +21,32 @@ function Coberturas({ searchTerm }) {
     },
     { titulo: "SANCOR", significado: "SANCOR SALUD" },
     { titulo: "SWISS MEDICAL", significado: "SWISS MEDICAL" },
-    { titulo: "AMCI", significado: "ASOCIACION MUTUAL DEL CONTROL INTEGRAL" },
+    { titulo: "AMCI", significado: "ASOCIACIÓN MUTUAL DEL CONTROL INTEGRAL" },
     {
       titulo: "AMEBPBA",
       significado:
-        "ASOCIACION MUTUALISTA DE EMPLEADOS DEL BANCO DE LA PCIA. BS. AS.",
+        "ASOCIACIÓN MUTUALISTA DE EMPLEADOS DEL BANCO DE LA PCIA. BS. AS.",
     },
     {
       titulo: "AMFFA",
-      significado: "ASOCIACION MUTUAL FARMACEUTICOS FLORENTINO AMEGHINO",
+      significado: "ASOCIACIÓN MUTUAL FARMACÉUTICOS FLORENTINO AMEGHINO",
     },
     { titulo: "AMS SALUD", significado: "AMSTERDAM SALUD" },
     { titulo: "ANDREANI", significado: "DEVELOP CONSULTING S.A." },
     {
       titulo: "APOC",
-      significado: "ASOCIACION DEL PERSONAL DE LOS ORGANISMOS DE CONTROL",
+      significado: "ASOCIACIÓN DEL PERSONAL DE LOS ORGANISMOS DE CONTROL",
     },
     {
       titulo: "APSOT",
       significado:
-        "ASOCIACION DEL PERSONAL SUPERIOR DE LA ORGANIZACION TECHINT",
+        "ASOCIACIÓN DEL PERSONAL SUPERIOR DE LA ORGANIZACIÓN TECHINT",
     },
-    { titulo: "ASS", significado: "AGRUPACION SANATORIAL SUR" },
+    { titulo: "ASS", significado: "AGRUPACIÓN SANATORIAL SUR" },
     {
       titulo: "ATGGBA",
       significado:
-        "ASOCIACION DE TRABAJADORES DEL MINISTERIO DE GOB. Y DE LA GOBERNACION DE LA PCIA. DE BS. AS.",
+        "ASOCIACIÓN DE TRABAJADORES DEL MINISTERIO DE GOB. Y DE LA GOBERNACIÓN DE LA PCIA. DE BS. AS.",
     },
     { titulo: "AVALIAN - ACA", significado: "AVALIAN - ACA SALUD" },
     { titulo: "BRISTOL", significado: "EX FEMEBA AVELLANEDA" },
@@ -56,16 +56,16 @@ function Coberturas({ searchTerm }) {
     },
     { titulo: "CASA", significado: "CAJA DE ABOGADOS" },
     { titulo: "CEA", significado: "CONFERENCIA EPISCOPAL ARGENTINA" },
-    { titulo: "CENTRO MEDICO PUEYRREDON", significado: "CMP CONURBANO" },
+    { titulo: "CENTRO MÉDICO PUEYRREDÓN", significado: "CMP CONURBANO" },
     {
-      titulo: "COLEGIO DE FARMACEUTICOS",
-      significado: "COLEGIO DE FARMACEUTICOS DE LA PCIA. DE BS. AS.",
+      titulo: "COLEGIO DE FARMACÉUTICOS",
+      significado: "COLEGIO DE FARMACÉUTICOS DE LA PCIA. DE BS. AS.",
     },
-    { titulo: "COMEI", significado: "OBRA SOCIAL DE LA CAJA DE ODONTOLOGOS" },
+    { titulo: "COMEI", significado: "OBRA SOCIAL DE LA CAJA DE ODONTÓLOGOS" },
     {
       titulo: "DASMI",
       significado:
-        "DIRECCION DE ASISTENCIA SOCIAL Y MEDICINA INTEGRAL DE LA UNIVERSIDAD NACIONAL DE LUJAN",
+        "DIRECCIÓN DE ASISTENCIA SOCIAL Y MEDICINA INTEGRAL DE LA UNIVERSIDAD NACIONAL DE LUJÁN",
     },
     { titulo: "ENSALUD", significado: "EN SALUD S.A." },
     {
@@ -79,27 +79,27 @@ function Coberturas({ searchTerm }) {
       significado: "MUTUAL FEDERADA 25 DE JUNIO",
     },
     { titulo: "FUTBOLISTAS", significado: "OBRA SOCIAL DE FUTBOLISTAS" },
-    { titulo: "GRUPO SAN NICOLAS", significado: "GRUPO SAN NICOLAS" },
+    { titulo: "GRUPO SAN NICOLÁS", significado: "GRUPO SAN NICOLÁS" },
     {
       titulo: "IOSFA",
-      significado: "INSTITUTO DE OBRA SOCIAL DEL EJERCITO - FUERZAS ARMADAS",
+      significado: "INSTITUTO DE OBRA SOCIAL DEL EJÉRCITO - FUERZAS ARMADAS",
     },
     { titulo: "ISALUD", significado: "ISALUD" },
     { titulo: "JERARQUICOS", significado: "JERARQUICOS SALUD" },
     {
       titulo: "LUIS PASTEUR",
       significado:
-        "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE SANIDAD LUIS PASTEUR",
+        "OBRA SOCIAL DEL PERSONAL DE DIRECCIÓN DE SANIDAD LUIS PASTEUR",
     },
     {
       titulo: "OPDEA",
       significado:
-        "OBRA SOCIAL DEL PERSONAL DE DIRECCION DE EMPRESAS DE LA ALIMENTACION",
+        "OBRA SOCIAL DEL PERSONAL DE DIRECCIÓN DE EMPRESAS DE LA ALIMENTACIÓN",
     },
-    { titulo: "OSAP", significado: "OBRA SOCIAL ACEROS PARANA" },
+    { titulo: "OSAP", significado: "OBRA SOCIAL ACEROS PARANÁ" },
     {
       titulo: "OSAPM",
-      significado: "OBRA SOCIAL AGENTES DE PROPAGANDA MEDICA",
+      significado: "OBRA SOCIAL AGENTES DE PROPAGANDA MÉDICA",
     },
     {
       titulo: "OSCTCP",
@@ -117,14 +117,14 @@ function Coberturas({ searchTerm }) {
     },
     {
       titulo: "OSFATLYF",
-      significado: "OBRA SOCIAL FEDERACION ARGENTINA TRABAJADORES LUZ Y FUERZA",
+      significado: "OBRA SOCIAL FEDERACIÓN ARGENTINA TRABAJADORES LUZ Y FUERZA",
     },
     {
       titulo: "OSFATUN",
       significado:
-        "OBRA SOCIAL DE LA FEDERACION ARGENTINA DEL TRABAJADOR DE LAS UNIVERSIDADES NACIONALES",
+        "OBRA SOCIAL DE LA FEDERACIÓN ARGENTINA DEL TRABAJADOR DE LAS UNIVERSIDADES NACIONALES",
     },
-    { titulo: "OSFOT", significado: "OBRA SOCIAL DE FOTOGRAFOS" },
+    { titulo: "OSFOT", significado: "OBRA SOCIAL DE FOTÓGRAFOS" },
     {
       titulo: "OSIAD",
       significado:
@@ -133,7 +133,7 @@ function Coberturas({ searchTerm }) {
     {
       titulo: "OSJERA",
       significado:
-        "OBRA SOCIAL DEL PERSONAL JERARQUICO DE LA REPUBLlCA ARGENTINA",
+        "OBRA SOCIAL DEL PERSONAL JERÁRQUICO DE LA REPÚBLICA ARGENTINA",
     },
     {
       titulo: "OSPACP AUDISALUD",
@@ -146,7 +146,7 @@ function Coberturas({ searchTerm }) {
     {
       titulo: "OSPEPBA",
       significado:
-        "OBRA SOCIAL DEL PERSONAL DE ESCRIBANIAS DE LA PCIA. DE BS. AS.",
+        "OBRA SOCIAL DEL PERSONAL DE ESCRIBANÍAS DE LA PCIA. DE BS. AS.",
     },
     {
       titulo: "OSPERYHRA",
@@ -160,7 +160,7 @@ function Coberturas({ searchTerm }) {
     {
       titulo: "OSPIA CONURBANO",
       significado:
-        "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DE LA ALIMENTACION",
+        "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA DE LA ALIMENTACIÓN",
     },
     {
       titulo: "OSPIL",
@@ -169,7 +169,7 @@ function Coberturas({ searchTerm }) {
     {
       titulo: "OSPILM",
       significado:
-        "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA LADRILLERA A MAQUINA",
+        "OBRA SOCIAL DEL PERSONAL DE LA INDUSTRIA LADRILLERA A MÁQUINA",
     },
     {
       titulo: "OSPIM",
@@ -186,34 +186,34 @@ function Coberturas({ searchTerm }) {
     },
     {
       titulo: "OSPPCYQ",
-      significado: "OBRA SOCIAL DEL PERSONAL DEL PAPEL CARTON Y QUIMICOS",
+      significado: "OBRA SOCIAL DEL PERSONAL DEL PAPEL CARTÓN Y QUÍMICOS",
     },
     {
       titulo: "OSPPRA",
-      significado: "OBRA SOCIAL PERSONAL DE PRENSA DE LA REPUBLICA ARGENTINA",
+      significado: "OBRA SOCIAL PERSONAL DE PRENSA DE LA REPÚBLICA ARGENTINA",
     },
     { titulo: "OSPRERA", significado: "OSPRERA" },
     {
       titulo: "OSPSA / FATSA",
       significado: "OBRA SOCIAL DEL PERSONAL DE LA SANIDAD ARGENTINA",
     },
-    { titulo: "OSPTV", significado: "OBRA SOCIAL DEL PERSONAL DE TELEVISION" },
+    { titulo: "OSPTV", significado: "OBRA SOCIAL DEL PERSONAL DE TELEVISIÓN" },
     { titulo: "OSSEG", significado: "OBRA SOCIAL EMPLEADOS DE SEGUROS" },
     {
       titulo: "OSSIMRA",
       significado:
-        "OBRA SOCIAL DE LOS SUPERVISORES DE LA INDUSTRIA METALMECANICA DE LA REPUBLlCA ARGENTINA",
+        "OBRA SOCIAL DE LOS SUPERVISORES DE LA INDUSTRIA METALMECÁNICA DE LA REPÚBLICA ARGENTINA",
     },
     {
       titulo: "OSVARA",
       significado:
-        "OBRA SOCIAL VENDEDORES AMBULANTES DE LA REPUBLICA ARGENTINA",
+        "OBRA SOCIAL VENDEDORES AMBULANTES DE LA REPÚBLICA ARGENTINA",
     },
     {
       titulo: "PODER JUDICIAL",
       significado: "CORTE SUPREMA DE JUSTICIA OBRA SOCIAL DEL PODER JUDICIAL",
     },
-    { titulo: "PREVENCION SALUD", significado: "PREVENCION SALUD S.A." },
+    { titulo: "PREVENCIÓN SALUD", significado: "PREVENCIÓN SALUD S.A." },
     { titulo: "SABER SALUD", significado: "SABER SALUD" },
     {
       titulo: "SADAIC",
@@ -221,10 +221,11 @@ function Coberturas({ searchTerm }) {
         "OBRA SOCIAL DE LA SOCIEDAD ARGENTINA DE AUTORES Y COMPOSITORES",
     },
     { titulo: "SCIS", significado: "SCIS MEDICINA PRIVADA" },
-    { titulo: "STAFF MEDICO", significado: "STAFF MEDICO S.A." },
-    { titulo: "UNIMED", significado: "TIEMPO MEDICO" },
+    { titulo: "STAFF MÉDICO", significado: "STAFF MÉDICO S.A." },
+    { titulo: "UNIMED", significado: "TIEMPO MÉDICO" },
     { titulo: "UNO SALUD", significado: "UNO SALUD S. A." },
   ];
+
   const normalizeString = (str) => {
     return str
       .normalize("NFD")

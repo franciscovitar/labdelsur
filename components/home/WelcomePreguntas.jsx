@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import "../styles/_welcome.scss";
 import { motion } from "framer-motion";
 
@@ -13,6 +14,20 @@ const textVariants = {
   },
 };
 function WelcomePreguntas({ setSearchTerm, searchTerm }) {
+  const [preguntas, setPreguntas] = useState("");
+
+  const getPreguntas = (valor) => {
+    setPreguntas(valor);
+  };
+
+  const handleSearchClick = () => {
+    setSearchTerm(preguntas);
+    window.scrollBy({
+      top: 200, // ajusta esta cantidad según sea necesario
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div id="inicio" className="home-welcome preguntas-welcome">
       <div className="contenedor">
@@ -21,9 +36,10 @@ function WelcomePreguntas({ setSearchTerm, searchTerm }) {
           {...textVariants}
           type="text"
           placeholder="Buscar..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          value={preguntas}
+          onChange={(e) => getPreguntas(e.target.value)}
         />
+        <a onClick={handleSearchClick}>Buscar</a>
       </div>
     </div>
   );

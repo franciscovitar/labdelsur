@@ -2,6 +2,8 @@
 
 import "../styles/_welcome.scss";
 import { motion } from "framer-motion";
+import Indicaciones from "./Indicaciones";
+import { useState } from "react";
 
 const textVariants = {
   viewport: { once: true },
@@ -13,6 +15,20 @@ const textVariants = {
   },
 };
 function WelcomeIndicaciones({ setSearchTerm, searchTerm }) {
+  const [indicaciones, setIndicaciones] = useState("");
+
+  const getIndicaciones = (valor) => {
+    setIndicaciones(valor);
+  };
+
+  const handleSearchClick = () => {
+    setSearchTerm(indicaciones);
+    window.scrollBy({
+      top: 200, // ajusta esta cantidad según sea necesario
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div id="inicio" className="home-welcome indicaciones-welcome">
       <div className="contenedor">
@@ -21,9 +37,12 @@ function WelcomeIndicaciones({ setSearchTerm, searchTerm }) {
           {...textVariants}
           type="text"
           placeholder="Buscar..."
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
+          value={indicaciones}
+          onChange={(e) => getIndicaciones(e.target.value)}
         />
+        <a href="#indi" onClick={handleSearchClick}>
+          Buscar
+        </a>
       </div>
     </div>
   );

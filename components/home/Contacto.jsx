@@ -24,12 +24,22 @@ function Contacto() {
           <Image src={Logo} />
         </motion.div>
         <motion.div {...imageVariants} className="links">
-          <a href="#nosotros">Nosotros</a>
-          <a href="https://delsur.kernitcloud.com/#/login/paciente">
+          <a href="/#nosotros">Nosotros</a>
+          <a
+            target="blank"
+            href="https://delsur.kernitcloud.com/#/login/paciente"
+          >
             Resultados Online
           </a>
-          <a href="/preguntas-frecuentes">Preguntas Frecuentes</a>
-          <a href="/obras-sociales">Coberturas</a>
+          <a target="blank" href="/indicaciones">
+            Indicaciones de Estudios
+          </a>
+          <a target="blank" href="/preguntas-frecuentes">
+            Preguntas Frecuentes
+          </a>
+          <a target="blank" href="/obras-sociales">
+            Coberturas
+          </a>
         </motion.div>
         <motion.div {...imageVariants} className="iconos">
           <a target="blank" href="https://www.facebook.com/delsurlaboratorio">
