@@ -15,7 +15,7 @@ function Indicaciones({ searchTerm }) {
     {
       pregunta: "¿Cómo recolectar la muestra de orina completa?",
       respuesta:
-        "Para recolectar la muestra de sedimento u orina completa utilice el envase limpio con tapa y recolecte la primera orina de la mañana o en su defecto una orina con una retención mayor a 3 hs.",
+        "Para recolectar la muestra de sedimento u orina completa utilice un envase limpio con tapa y recolecte la primera orina de la mañana o en su defecto una orina con una retención mayor a 3 hs.",
     },
     {
       pregunta:

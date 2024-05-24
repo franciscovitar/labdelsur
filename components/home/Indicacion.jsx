@@ -56,7 +56,7 @@ function Indicacion() {
         <motion.div {...imageVariants}>
           <h5>¿Cómo recolectar la muestra de orina completa?</h5>
           <p>
-            Para recolectar la muestra de sedimento u orina completa utilice el
+            Para recolectar la muestra de sedimento u orina completa utilice un
             envase limpio con tapa y recolecte la primera orina de la mañana o
             en su defecto una orina con una retención mayor a 3 hs.
           </p>

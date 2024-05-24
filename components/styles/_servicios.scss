@@ -15,6 +15,7 @@
 
     .servicio-flex {
         display: flex;
+        gap: 20px;
 
         @media(max-width: 700px) {
             flex-direction: column;
@@ -48,6 +49,7 @@
         }
 
         p {
+            text-align: justify;
             margin-top: 10px;
             font-weight: 400;
             font-size: 18px;

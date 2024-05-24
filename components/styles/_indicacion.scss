@@ -61,7 +61,7 @@
     .texto-preguntas {
 
         display: flex;
-        gap: 20px;
+        gap: 30px;
 
         @media(max-width: 700px) {
             flex-direction: column;
@@ -83,6 +83,7 @@
             }
 
             p {
+                text-align: justify;
                 font-weight: 400;
                 font-size: 16px;
                 color: rgb(107, 114, 128);
