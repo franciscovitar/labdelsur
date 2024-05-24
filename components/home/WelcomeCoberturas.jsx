@@ -43,7 +43,9 @@ function WelcomeCoberturas({ setSearchTerm, searchTerm }) {
           value={coberturas}
           onChange={(e) => getCoberturas(e.target.value)}
         />
-        <a onClick={handleSearchClick}>Buscar</a>
+        <motion.a {...textVariants} onClick={handleSearchClick}>
+          Buscar
+        </motion.a>
       </div>
     </div>
   );

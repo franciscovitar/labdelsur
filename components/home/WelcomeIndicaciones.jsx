@@ -40,9 +40,9 @@ function WelcomeIndicaciones({ setSearchTerm, searchTerm }) {
           value={indicaciones}
           onChange={(e) => getIndicaciones(e.target.value)}
         />
-        <a href="#indi" onClick={handleSearchClick}>
+        <motion.a {...textVariants} onClick={handleSearchClick}>
           Buscar
-        </a>
+        </motion.a>
       </div>
     </div>
   );

@@ -39,7 +39,9 @@ function WelcomePreguntas({ setSearchTerm, searchTerm }) {
           value={preguntas}
           onChange={(e) => getPreguntas(e.target.value)}
         />
-        <a onClick={handleSearchClick}>Buscar</a>
+        <motion.a {...textVariants} onClick={handleSearchClick}>
+          Buscar
+        </motion.a>
       </div>
     </div>
   );
