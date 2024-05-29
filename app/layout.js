@@ -29,6 +29,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="canonical" href="https://www.labdelsur.com.ar/" />
+        <meta
+          name="google-site-verification"
+          content="LmdEZVQg4Jn2PvEpN7CPsBXiVAaFGXGe8J-RX0hRkII"
+        />
+      </head>
       <body translate="no" className={inter.className}>
         {children}
       </body>
