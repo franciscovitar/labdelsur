@@ -27,7 +27,7 @@ function Contacto() {
           <a href="/#nosotros">Nosotros</a>
           <a
             target="blank"
-            href="https://delsur.kernitcloud.com/#/login/paciente"
+            href="https://portalderesultados.kernitcloud.com/#/login/paciente"
           >
             Resultados Online
           </a>
