@@ -25,7 +25,7 @@ function Resultados() {
       <motion.div {...imageVariants} className="botones">
         <a
           target="blank"
-          href="https://delsur.kernitcloud.com/#/login/paciente"
+          href="https://portalderesultados.kernitcloud.com/#/login/paciente"
         >
           INGRESAR
         </a>
