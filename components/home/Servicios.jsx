@@ -57,7 +57,7 @@ function Servicios() {
             <p className="ms-3">
               Reciba sus resultados de forma rápida y segura a través del
               siguiente{" "}
-              <a href="https://delsur.kernitcloud.com/#/login/paciente">
+              <a href="https://portalderesultados.kernitcloud.com/#/login/paciente">
                 sitio
               </a>
               .
