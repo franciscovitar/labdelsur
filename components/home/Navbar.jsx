@@ -78,7 +78,7 @@ const NavBar = () => {
             <a
               target="blank"
               title="Resultados"
-              href="https://delsur.kernitcloud.com/#/login/paciente"
+              href="https://portalderesultados.kernitcloud.com/#/login/paciente"
             >
               Resultados Online
             </a>
@@ -107,7 +107,7 @@ const NavBar = () => {
               target="blank"
               onClick={handleClick}
               title="Resultados"
-              href="https://delsur.kernitcloud.com/#/login/paciente"
+              href="https://portalderesultados.kernitcloud.com/#/login/paciente"
             >
               Resultados Online
             </a>
