@@ -52,8 +52,8 @@ function Maps() {
         </motion.div>
         <motion.div {...textVariants} className="iconos">
           <i className="bi bi-envelope"></i>
-          <a target="blank" href="mailto:info@labdelsur.com.ar">
-            <p>info@labdelsur.com.ar</p>
+          <a target="blank" href="mailto:delsuranalisis@gmail.com">
+            <p>delsuranalisis@gmail.com</p>
           </a>
         </motion.div>
         <motion.div {...textVariants} className="iconos">

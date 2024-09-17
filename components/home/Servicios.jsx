@@ -71,8 +71,8 @@ function Servicios() {
               Atención y asesoramiento a empresas e instituciones, exámenes pre
               ocupacionales, anuales y otros servicios. <br />
               Consultanos{" "}
-              <a href="mailto:info@laboratoriodelsur.com.ar">
-                info@labdelsur.com.ar.
+              <a href="mailto:delsuranalisis@gmail.com">
+                delsuranalisis@gmail.com
               </a>
             </p>
           </motion.div>
