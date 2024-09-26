@@ -80,6 +80,7 @@ function Coberturas({ searchTerm }) {
     },
     { titulo: "FUTBOLISTAS", significado: "OBRA SOCIAL DE FUTBOLISTAS" },
     { titulo: "GRUPO SAN NICOLÁS", significado: "GRUPO SAN NICOLÁS" },
+    { titulo: "HOMINIS", significado: "HOMINIS" },
     {
       titulo: "IOSFA",
       significado: "INSTITUTO DE OBRA SOCIAL DEL EJÉRCITO - FUERZAS ARMADAS",

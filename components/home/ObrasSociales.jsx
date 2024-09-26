@@ -12,7 +12,7 @@ import Osmecon from "../../Images/osmecon.jpeg";
 import Pami from "../../Images/pami.png";
 import Sancor from "../../Images/sancor.png";
 import Swiss from "../../Images/swiss_medical.png";
-import Uta from "../../Images/uta.png";
+import Hominis from "../../Images/hominis.jpeg";
 import { motion } from "framer-motion";
 
 const textVariants = {
@@ -60,6 +60,9 @@ function ObrasSociales({ inicio }) {
           </motion.div>
           <motion.div {...imageVariants}>
             <Image src={Osde} />
+          </motion.div>
+          <motion.div {...imageVariants}>
+            <Image src={Hominis} />
           </motion.div>
           <motion.div {...imageVariants}>
             <Image src={Osdepym} />
