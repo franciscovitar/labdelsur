@@ -2,6 +2,11 @@ import "../styles/_preguntasFrecuentes.scss";
 
 function Coberturas({ searchTerm }) {
   const coberturas = [
+    {
+      titulo: "SERVICIO PENITENCIARIO FEDERAL",
+      significado:
+        "DIRECCIÓN DE OBRA SOCIAL DEL SERVICIO PENITENCIARIO FEDERAL",
+    },
     { titulo: "GALENO", significado: "GALENO ARGENTINA" },
     { titulo: "IOMA", significado: "INSTITUTO OBRA MÉDICO ASISTENCIAL" },
     { titulo: "OMINT", significado: "OMINT" },

@@ -11,6 +11,7 @@ import Osdepym from "../../Images/osdepym.jpeg";
 import Osmecon from "../../Images/osmecon.jpeg";
 import Pami from "../../Images/pami.png";
 import Sancor from "../../Images/sancor.png";
+import Servicio from "../../Images/Servicio-Penitenciario.jpg";
 import Swiss from "../../Images/swiss_medical.png";
 import Hominis from "../../Images/hominis.jpeg";
 import { motion } from "framer-motion";
@@ -56,6 +57,9 @@ function ObrasSociales({ inicio }) {
             <Image src={Ioma} />
           </motion.div>
           <motion.div {...imageVariants}>
+            <Image src={Servicio} />
+          </motion.div>
+          <motion.div {...imageVariants}>
             <Image src={Omint} />
           </motion.div>
           <motion.div {...imageVariants}>
@@ -67,9 +71,9 @@ function ObrasSociales({ inicio }) {
           <motion.div {...imageVariants}>
             <Image src={Osdepym} />
           </motion.div>
-          <motion.div {...imageVariants}>
+          {/* <motion.div {...imageVariants}>
             <Image src={Osmecon} />
-          </motion.div>
+          </motion.div> */}
           <motion.div {...imageVariants}>
             <Image src={Pami} />
           </motion.div>
