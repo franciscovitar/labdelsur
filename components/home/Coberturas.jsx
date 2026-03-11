@@ -141,6 +141,7 @@ function Coberturas({ searchTerm }) {
       significado:
         "OBRA SOCIAL DEL PERSONAL JERÁRQUICO DE LA REPÚBLICA ARGENTINA",
     },
+    { titulo: "OSRJA", significado: "OBRA SOCIAL DE RELOJEROS Y JOYEROS" },
     {
       titulo: "OSPACP AUDISALUD",
       significado: "OBRA SOCIAL DEL PERSONAL AUXILIAR DE CASAS PARTICULARES",
@@ -228,6 +229,11 @@ function Coberturas({ searchTerm }) {
     },
     { titulo: "SCIS", significado: "SCIS MEDICINA PRIVADA" },
     { titulo: "STAFF MÉDICO", significado: "STAFF MÉDICO S.A." },
+    {
+      titulo: "UTA",
+      significado:
+        "OBRA SOCIAL DE CONDUCTORES DE TRANSPORTE COLECTIVO DE PASAJEROS",
+    },
     { titulo: "UNIMED", significado: "TIEMPO MÉDICO" },
     { titulo: "UNO SALUD", significado: "UNO SALUD S. A." },
   ];
@@ -242,7 +248,7 @@ function Coberturas({ searchTerm }) {
   const filteredCoberturas = coberturas.filter(
     (item) =>
       normalizeString(item.titulo).includes(normalizeString(searchTerm)) ||
-      normalizeString(item.significado).includes(normalizeString(searchTerm))
+      normalizeString(item.significado).includes(normalizeString(searchTerm)),
   );
 
   return (
