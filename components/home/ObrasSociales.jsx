@@ -8,10 +8,9 @@ import Ioma from "../../Images/ioma.jpeg";
 import Omint from "../../Images/omint.png";
 import Osde from "../../Images/osde.png";
 import Osdepym from "../../Images/osdepym.jpeg";
-import Osmecon from "../../Images/osmecon.jpeg";
 import Pami from "../../Images/pami.png";
 import Sancor from "../../Images/sancor.png";
-import Servicio from "../../Images/Servicio-Penitenciario.jpg";
+import Medicus from "../../Images/medicus.jpeg";
 import Swiss from "../../Images/swiss_medical.png";
 import Hominis from "../../Images/hominis.jpeg";
 import { motion } from "framer-motion";
@@ -48,43 +47,49 @@ function ObrasSociales({ inicio }) {
         </motion.div>
       ) : null}
 
-      <div className="obras-flex">
-        <div className="obra-flex">
-          <motion.div {...imageVariants}>
-            <Image src={Galeno} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Ioma} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Servicio} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Omint} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Osde} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Hominis} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Osdepym} />
-          </motion.div>
-          {/* <motion.div {...imageVariants}>
-            <Image src={Osmecon} />
-          </motion.div> */}
-          <motion.div {...imageVariants}>
-            <Image src={Pami} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Sancor} />
-          </motion.div>
-          <motion.div {...imageVariants}>
-            <Image src={Swiss} />
-          </motion.div>
-        </div>
-      </div>
+     <div className="obras-flex">
+  <div className="obra-flex">
+    <motion.div {...imageVariants}>
+      <Image src={Galeno} alt="Galeno" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Ioma} alt="IOMA" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Medicus} alt="Medicus" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Omint} alt="Omint" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Osde} alt="OSDE" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Hominis} alt="Hominis" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Osdepym} alt="OSDEPYM" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Pami} alt="PAMI" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Sancor} alt="Sancor Salud" />
+    </motion.div>
+
+    <motion.div {...imageVariants}>
+      <Image src={Swiss} alt="Swiss Medical" />
+    </motion.div>
+  </div>
+</div>
     </div>
   );
 }

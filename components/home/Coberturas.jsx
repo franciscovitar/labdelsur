@@ -92,16 +92,20 @@ function Coberturas({ searchTerm }) {
     },
     { titulo: "ISALUD", significado: "ISALUD" },
     { titulo: "JERÁRQUICOS", significado: "JERÁRQUICOS SALUD" },
-    {
-      titulo: "LUIS PASTEUR",
-      significado:
-        "OBRA SOCIAL DEL PERSONAL DE DIRECCIÓN DE SANIDAD LUIS PASTEUR",
-    },
-    {
-      titulo: "OPDEA",
-      significado:
-        "OBRA SOCIAL DEL PERSONAL DE DIRECCIÓN DE EMPRESAS DE LA ALIMENTACIÓN",
-    },
+   {
+  titulo: "LUIS PASTEUR",
+  significado:
+    "OBRA SOCIAL DEL PERSONAL DE DIRECCIÓN DE SANIDAD LUIS PASTEUR",
+},
+{
+  titulo: "MEDICUS",
+  significado: "MEDICUS S.A. DE ASISTENCIA MÉDICA Y CIENTÍFICA",
+},
+{
+  titulo: "OPDEA",
+  significado:
+    "OBRA SOCIAL DEL PERSONAL DE DIRECCIÓN DE EMPRESAS DE LA ALIMENTACIÓN",
+},
     { titulo: "OSAP", significado: "OBRA SOCIAL ACEROS PARANÁ" },
     {
       titulo: "OSAPM",
